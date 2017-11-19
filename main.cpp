@@ -5,6 +5,7 @@
 #include "Printer/ConsolePrinter.h"
 
 int main() {
+//
   string s = "";
 
   HumanPlayer black = HumanPlayer(s);
