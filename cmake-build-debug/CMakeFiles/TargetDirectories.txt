@@ -1,0 +1,3 @@
+/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/CMakeFiles/Task_03.dir
