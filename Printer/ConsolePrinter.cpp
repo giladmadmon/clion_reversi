@@ -74,3 +74,9 @@ void ConsolePrinter::PrintScore(int black_score, int white_score) {
   cout << "There are " << black_score << " " << (char) Black << " tools." << endl
        << "There are " << white_score << " " << (char) White << " tools." << endl;
 }
+void  ConsolePrinter::PrintMove(Position &position, PlayerColor color){
+  cout << (char) color << " played: (" << position.GetRow() << "," << position.GetColumn() << ")" << endl;
+}
+void ConsolePrinter::PrintAINoMove(PlayerColor color) {
+  cout << (char) color << " had no move." << endl;
+}

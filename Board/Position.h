@@ -10,12 +10,12 @@
 class Position {
  public:
   /**
-   * Constructor.
-   *
-   * @param row the row of the position. Default is 0.
-   * @param col the column of the position. Default is 0.
-   */
-  Position(int row = 0,int col = 0);
+     * Constructor.
+     *
+     * @param row the row of the position. Default is 0.
+     * @param col the column of the position. Default is 0.
+     */
+  Position(int row, int col);
   /**
    * @return the row of the position.
    */

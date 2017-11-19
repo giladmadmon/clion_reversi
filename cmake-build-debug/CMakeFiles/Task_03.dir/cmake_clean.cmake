@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Task_03.dir/Logic/ClassicLogic.cpp.o"
   "CMakeFiles/Task_03.dir/Game/ReversiGame.cpp.o"
   "CMakeFiles/Task_03.dir/Printer/ConsolePrinter.cpp.o"
+  "CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o"
   "Task_03.pdb"
   "Task_03"
 )

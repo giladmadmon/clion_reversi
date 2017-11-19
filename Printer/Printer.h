@@ -80,5 +80,17 @@ class Printer {
    * Tell the player he did not enter a number.
    */
   virtual void PrintNotANumber() = 0;
+
+  /**
+  * Prints the move the Player did.
+  */
+  virtual void PrintMove(Position &position, PlayerColor color) = 0;
+
+  /**
+ * Prints the move the AIPlayer did.
+ * @param position the move the was played
+ * @param color the player who did the move
+ */
+  virtual void PrintAINoMove(PlayerColor color) = 0;
 };
 #endif //ASS2_PRINTER_H

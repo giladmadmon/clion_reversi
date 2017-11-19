@@ -21,7 +21,7 @@ PlayerColor ClassicLogic::NextTurn(bool new_game, Board &board) {
     return current_turn_;
   }
 
-  current_turn_ = OTHER_COLOR(current_turn_);
+  current_turn_ = OtherColor(current_turn_);
   return current_turn_;
 }
 PlayerColor ClassicLogic::GetWinner(Board &board) {
@@ -40,7 +40,7 @@ vector<Position> ClassicLogic::PossibleMoves(PlayerColor player, Board &board) {
   vector<Position> possible_positions;
   for (int i = 1; i <= board.GetSize(); ++i) {
     for (int j = 1; j <= board.GetSize(); ++j) {
-      if (board.GetColorAtPosition(i, j) == NoColor && !CheckAllDirections(OTHER_COLOR(player), i, j, board).empty()) {
+      if (board.GetColorAtPosition(i, j) == NoColor && !CheckAllDirections(OtherColor(player), i, j, board).empty()) {
         possible_positions.push_back(Position(i, j));
       }
     }
@@ -93,7 +93,7 @@ bool ClassicLogic::CheckOneDirection(PlayerColor rival_color,
       return false;
     }
 
-    if (next_color == OTHER_COLOR(rival_color)) {
+    if (next_color == OtherColor(rival_color)) {
       // is it the nearest position to the check cell?
       return next_row != first_row_check || next_column != first_col_check;
     }
@@ -102,7 +102,7 @@ bool ClassicLogic::CheckOneDirection(PlayerColor rival_color,
 }
 
 void ClassicLogic::PlaceAToken(PlayerColor color, int row, int col, Board &board) {
-  vector<vector<int> > directions = CheckAllDirections(OTHER_COLOR(color), row, col, board);
+  vector<vector<int> > directions = CheckAllDirections(OtherColor(color), row, col, board);
 
   for (vector<vector<int> >::iterator it = directions.begin(); it != directions.end(); ++it) {
     int row_change = it.base()->at(0), col_change = it.base()->at(1);

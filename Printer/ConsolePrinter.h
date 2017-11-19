@@ -83,6 +83,20 @@ class ConsolePrinter : public Printer {
    * Tell the player he did not enter a number.
    */
   virtual void PrintNotANumber();
+
+  /**
+   * Prints the move the given player did.
+   * @param position the move the was played
+   * @param color the player who did the move.
+   */
+  virtual void PrintMove(Position &position, PlayerColor color);
+
+  /**
+  * Prints the move the AIPlayer did.
+  * @param position the move the was played
+  * @param color the player who did the move
+  */
+  virtual void PrintAINoMove(PlayerColor color);
 };
 
 

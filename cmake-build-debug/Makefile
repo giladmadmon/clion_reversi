@@ -258,6 +258,33 @@ Logic/Logic.cpp.s:
 	$(MAKE) -f CMakeFiles/Task_03.dir/build.make CMakeFiles/Task_03.dir/Logic/Logic.cpp.s
 .PHONY : Logic/Logic.cpp.s
 
+Player/AIPlayer.o: Player/AIPlayer.cpp.o
+
+.PHONY : Player/AIPlayer.o
+
+# target to build an object file
+Player/AIPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03.dir/build.make CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o
+.PHONY : Player/AIPlayer.cpp.o
+
+Player/AIPlayer.i: Player/AIPlayer.cpp.i
+
+.PHONY : Player/AIPlayer.i
+
+# target to preprocess a source file
+Player/AIPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03.dir/build.make CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.i
+.PHONY : Player/AIPlayer.cpp.i
+
+Player/AIPlayer.s: Player/AIPlayer.cpp.s
+
+.PHONY : Player/AIPlayer.s
+
+# target to generate assembly for a file
+Player/AIPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03.dir/build.make CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.s
+.PHONY : Player/AIPlayer.cpp.s
+
 Player/HumanPlayer.o: Player/HumanPlayer.cpp.o
 
 .PHONY : Player/HumanPlayer.o
@@ -390,6 +417,9 @@ help:
 	@echo "... Logic/Logic.o"
 	@echo "... Logic/Logic.i"
 	@echo "... Logic/Logic.s"
+	@echo "... Player/AIPlayer.o"
+	@echo "... Player/AIPlayer.i"
+	@echo "... Player/AIPlayer.s"
 	@echo "... Player/HumanPlayer.o"
 	@echo "... Player/HumanPlayer.i"
 	@echo "... Player/HumanPlayer.s"

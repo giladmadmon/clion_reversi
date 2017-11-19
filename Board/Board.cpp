@@ -35,7 +35,7 @@ void Board::SetColorAtPosition(int row, int col, PlayerColor color) {
 }
 // change name
 PlayerColor Board::GetColorAtPosition(int row, int col) {
-  return board_[row-1][col-1];
+  return board_[row - 1][col - 1];
 }
 // change
 int Board::CountColor(PlayerColor color) {
@@ -60,4 +60,17 @@ Board::~Board() {
 
 int Board::GetSize() {
   return size_;
+}
+Board::Board(const Board &old_board) {
+  this->size_ = old_board.size_;
+  this->board_ = new PlayerColor *[size_];
+  for (int i = 0; i < size_; ++i) {
+    this->board_[i] = new PlayerColor[size_];
+  }
+
+  for (int i = 0; i < size_; ++i) {
+    for (int j = 0; j < size_; ++j) {
+      board_[i][j] = old_board.board_[i][j];
+    }
+  }
 }

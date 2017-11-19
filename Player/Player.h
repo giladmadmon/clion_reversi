@@ -30,7 +30,7 @@ class Player {
    * @param printer the printer in order to communicate with the player.
    * @return the chosen position of the player.
    */
-  virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer) = 0;
+  virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color) = 0;
 
  private:
   string name_;

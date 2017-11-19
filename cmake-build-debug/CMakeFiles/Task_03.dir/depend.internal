@@ -34,6 +34,15 @@ CMakeFiles/Task_03.dir/Logic/Logic.cpp.o
  /home/gilad/CLionProjects/Mivne/Task_03/Player/Player.h
  /home/gilad/CLionProjects/Mivne/Task_03/Player/PlayerColor.h
  /home/gilad/CLionProjects/Mivne/Task_03/Printer/Printer.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o
+ /home/gilad/CLionProjects/Mivne/Task_03/Board/Board.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Board/Position.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Logic/Logic.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Player/AIPlayer.cpp
+ /home/gilad/CLionProjects/Mivne/Task_03/Player/AIPlayer.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Player/Player.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Player/PlayerColor.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Printer/Printer.h
 CMakeFiles/Task_03.dir/Player/HumanPlayer.cpp.o
  /home/gilad/CLionProjects/Mivne/Task_03/Board/Board.h
  /home/gilad/CLionProjects/Mivne/Task_03/Board/Position.h
@@ -62,6 +71,7 @@ CMakeFiles/Task_03.dir/main.cpp.o
  /home/gilad/CLionProjects/Mivne/Task_03/Game/ReversiGame.h
  /home/gilad/CLionProjects/Mivne/Task_03/Logic/ClassicLogic.h
  /home/gilad/CLionProjects/Mivne/Task_03/Logic/Logic.h
+ /home/gilad/CLionProjects/Mivne/Task_03/Player/AIPlayer.h
  /home/gilad/CLionProjects/Mivne/Task_03/Player/HumanPlayer.h
  /home/gilad/CLionProjects/Mivne/Task_03/Player/Player.h
  /home/gilad/CLionProjects/Mivne/Task_03/Player/PlayerColor.h

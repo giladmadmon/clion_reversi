@@ -34,6 +34,15 @@ CMakeFiles/Task_03.dir/Logic/Logic.cpp.o: ../Player/Player.h
 CMakeFiles/Task_03.dir/Logic/Logic.cpp.o: ../Player/PlayerColor.h
 CMakeFiles/Task_03.dir/Logic/Logic.cpp.o: ../Printer/Printer.h
 
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Board/Board.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Board/Position.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Logic/Logic.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Player/AIPlayer.cpp
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Player/AIPlayer.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Player/Player.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Player/PlayerColor.h
+CMakeFiles/Task_03.dir/Player/AIPlayer.cpp.o: ../Printer/Printer.h
+
 CMakeFiles/Task_03.dir/Player/HumanPlayer.cpp.o: ../Board/Board.h
 CMakeFiles/Task_03.dir/Player/HumanPlayer.cpp.o: ../Board/Position.h
 CMakeFiles/Task_03.dir/Player/HumanPlayer.cpp.o: ../Player/HumanPlayer.cpp
@@ -61,6 +70,7 @@ CMakeFiles/Task_03.dir/main.cpp.o: ../Board/Position.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Game/ReversiGame.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Logic/ClassicLogic.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Logic/Logic.h
+CMakeFiles/Task_03.dir/main.cpp.o: ../Player/AIPlayer.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Player/HumanPlayer.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Player/Player.h
 CMakeFiles/Task_03.dir/main.cpp.o: ../Player/PlayerColor.h

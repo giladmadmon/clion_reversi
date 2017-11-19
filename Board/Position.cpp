@@ -18,3 +18,4 @@ int Position::GetColumn() const {
 bool Position::operator==(const Position &position) const {
   return this->GetRow() == position.GetRow() && this->GetColumn() == position.GetColumn();
 }
+

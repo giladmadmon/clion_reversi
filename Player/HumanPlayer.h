@@ -29,7 +29,7 @@ class HumanPlayer : public Player{
    * @param printer the printer in order to communicate with the player.
    * @return the chosen position of the player.
    */
-  virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer);
+  virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color);
 };
 
 #endif //TASK_02_HUMANPLAYER_H

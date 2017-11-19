@@ -114,6 +114,12 @@
 		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Logic/Logic.h">
 			<Option target="Task_03"/>
 		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/AIPlayer.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/AIPlayer.h">
+			<Option target="Task_03"/>
+		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/HumanPlayer.cpp">
 			<Option target="Task_03"/>
 		</Unit>

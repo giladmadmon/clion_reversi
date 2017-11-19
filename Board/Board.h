@@ -50,6 +50,13 @@ class Board {
    * @return the size of the board.
    */
   int GetSize();
+
+  /**
+   * deep copies the board.
+   *
+   * @param old_board the board to be copied.
+   */
+  Board(const Board &old_board);
   /**
    * Destructor.
    */
