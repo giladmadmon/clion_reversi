@@ -1,9 +1,9 @@
 #include  <iostream>
-#include "Player/HumanPlayer.h"
-#include "Player/AIPlayer.h"
-#include "Game/ReversiGame.h"
-#include "Logic/ClassicLogic.h"
-#include "Printer/ConsolePrinter.h"
+#include "include/HumanPlayer.h"
+#include "include/AIPlayer.h"
+#include "include/ReversiGame.h"
+#include "include/ClassicLogic.h"
+#include "include/ConsolePrinter.h"
 
 int main() {
 //
