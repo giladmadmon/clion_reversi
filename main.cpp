@@ -5,18 +5,49 @@
 #include "include/ClassicLogic.h"
 #include "include/ConsolePrinter.h"
 
+#include <limits>
+
+void StartGame(const Player &white, Board &board, Logic &logic);
+
 int main() {
-//
-  string s = "";
+  int option;
+  bool valid;
+  Board board;
+  ClassicLogic logic;
 
-  ClassicLogic logic = ClassicLogic();
-  Board board = Board(8);
-  ConsolePrinter printer = ConsolePrinter();
-  HumanPlayer black = HumanPlayer(s);
-  AIPlayer white = AIPlayer(s, board, logic);
-  //AIPlayer black = AIPlayer(s, board, logic);
+  cout << "Hello! who would you like to play Reversi with?:)" << endl;
+  cout << "(1) Your Friend. " << endl;
+  cout << "(2) The computer. " << endl;
 
-  ReversiGame game = ReversiGame(black, white, logic, board, printer);
+  do {
+    cin >> option;
 
+    if(option != 1 && option != 2){
+      cout << "wrong input, try again" << endl;
+    }
+
+    if (cin.good()) {
+      valid = true;
+    } else {
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+  } while (!valid || (option != 1 && option != 2));
+
+  switch (option) {
+    case 1:StartGame(HumanPlayer(), board, logic);
+      break;
+    case 2:StartGame(AIPlayer(board, logic), board, logic);
+      break;
+    default:return 0;
+  }
+}
+
+void StartGame(const Player &white, Board &board, Logic &logic) {
+  ConsolePrinter printer;
+  HumanPlayer black;
+  AIPlayer whiteAI(board, logic);
+
+  ReversiGame game(black, const_cast<Player &>(white), logic, board, printer);
   game.PlayGame();
 }

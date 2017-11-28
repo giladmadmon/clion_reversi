@@ -20,9 +20,9 @@ class HumanPlayer : public Player{
    *
    * @param name the name of the player.
    */
-  HumanPlayer(string &name);
+  HumanPlayer(string name = "");
 
-   /**
+  /**
    * Asks the player to make a move.
    *
    * @param possible_moves the player possible moves.

@@ -40,7 +40,7 @@ int KeyboardHit(void) {
   return 0;
 }
 
-HumanPlayer::HumanPlayer(string &name) : Player(name) {}
+HumanPlayer::HumanPlayer(string name) : Player(name) {}
 
 int GetIntFromUser(Printer &printer) {
   int input = -1;

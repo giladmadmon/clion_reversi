@@ -21,12 +21,13 @@ class BoardTest : public testing::Test {
 
  protected:
   Board *board_;
-  Board test;
 };
-
+//what to write?
 TEST_F(BoardTest, Bounds) {
-  for (int row = 1; row <= board_->GetSize(); row++) {
-    for (int col = 1; col <= board_->GetSize(); col++) {
+  int size = board_->GetSize();
+
+  for (int row = 1; row <= size; row++) {
+    for (int col = 1; col <= size; col++) {
       EXPECT_NO_THROW(board_->SetColorAtPosition(row, col, NoColor));
       EXPECT_NO_THROW(board_->GetColorAtPosition(row, col));
     }
@@ -64,6 +65,8 @@ TEST_F(BoardTest, Bounds) {
   }*/
 }
 
+
+// tests the getter on aboard with a certain placement of tokens that was placed be the setter
 TEST_F(BoardTest, GettersSetters) {
   for (int row = 1; row <= board_->GetSize(); ++row) {
     for (int col = 1; col <= board_->GetSize(); ++col) {
@@ -85,12 +88,14 @@ TEST_F(BoardTest, GettersSetters) {
   }
 }
 
+//tests if the default size is 8
 TEST_F(BoardTest, Size) {
   EXPECT_EQ(board_->GetSize(), 8);
   EXPECT_NE(board_->GetSize(), 6);
 
 }
 
+//tests the get CountColor function, at the statring position of the board, and after placing tokens in a certain order.
 TEST_F(BoardTest, Count) {
   PlayerColor color = NoColor;
 
@@ -118,7 +123,8 @@ TEST_F(BoardTest, Count) {
   EXPECT_EQ(board_->CountColor(Black), 21);
 }
 
-TEST_F(BoardTest , Reset){
+//tests the Reset function, after changing the board.
+TEST_F(BoardTest, Reset) {
   PlayerColor color = NoColor;
 
   for (int row = 1; row <= board_->GetSize(); ++row) {

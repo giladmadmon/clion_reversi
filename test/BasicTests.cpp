@@ -8,7 +8,7 @@
 
 #include "gtest/gtest.h"
 #include "../include/Position.h"
-
+//tests if the position class functions GetRow and GetColumn are working
 TEST(Position,Getters) {
   Position position;
   EXPECT_EQ(position.GetRow(), 0);

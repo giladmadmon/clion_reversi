@@ -38,6 +38,7 @@ void ReversiGame::PlayOneTurn() {
 
     printer_.PrintCurrentTurn(current_turn);
     chosen_position = current_player->MakeAMove(possible_moves, printer_, current_turn);
+    printer_.PrintMove(chosen_position, current_turn);
 
     logic_.PlaceAToken(current_turn, chosen_position.GetRow(), chosen_position.GetColumn(), board_);
   }

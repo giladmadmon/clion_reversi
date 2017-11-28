@@ -16,16 +16,15 @@ class AIPlayer : public Player{
    *
    * @param name the name of the player.
    */
-  AIPlayer(string &name, Board &board, Logic &logic);
+  AIPlayer(Board &board, Logic &logic, string name = "");
   /**
-   * The AIPlayer make's the best move according to minimax method..
+   * The AIPlayer make's the best move according to minimax method.
    *
    * @param possible_moves the player possible moves.
    * @param printer print the chosen move.
    * @return the chosen position of the AIPlayer.
    */
   virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color);
-
 
  private:
 /**

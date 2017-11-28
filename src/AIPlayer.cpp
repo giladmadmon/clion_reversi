@@ -5,7 +5,7 @@
 #include "../include/AIPlayer.h"
 #include <cstdlib>
 #include <cstdio>
-AIPlayer::AIPlayer(string &name, Board &board, Logic &logic) : Player(name), board_(board), logic_(logic) {
+AIPlayer::AIPlayer(Board &board, Logic &logic, string name) : Player(name), board_(board), logic_(logic) {
 
 }
 
@@ -52,7 +52,6 @@ Position AIPlayer::MakeAMove(vector<Position> &possible_moves, Printer &printer,
 
     srand(static_cast<unsigned int>(time(NULL)));
     Position random_position = min_positions[rand() % min_positions.size()];
-    printer.PrintMove(random_position, color);
 
     return random_position;
   }

@@ -9,6 +9,7 @@
 #include <algorithm>
 #include "gtest/gtest.h"
 #include "../include/ClassicLogic.h"
+#include "BoardStates.h"
 
 using namespace std;
 
@@ -16,12 +17,14 @@ class ClassicLogicTest : public testing::Test {
  public:
   virtual void SetUp() {
     ClassicLogicTest::logic_ = ClassicLogic();
+    board_states_ = BoardStates();
   }
 
   virtual void TearDown() {
   }
 
  protected:
+  BoardStates board_states_;
   ClassicLogic logic_;
   virtual bool CheckMoves(vector<Position> &wanted_moves, PlayerColor player_color, Board &board);
 };
@@ -35,8 +38,9 @@ bool ClassicLogicTest::CheckMoves(vector<Position> &wanted_moves, PlayerColor pl
   }
 
   return is_good;
-}
+} 
 
+// tests the possible moves of the Black player and the White player in the start of the game
 TEST_F(ClassicLogicTest, PossibleMovesStart) {
   Board board;
   vector<Position> wanted_moves;
@@ -57,82 +61,83 @@ TEST_F(ClassicLogicTest, PossibleMovesStart) {
   EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
 }
 
+// tests the possible moves of the Black player and the White player when both have no moves
 TEST_F(ClassicLogicTest, PossibleMovesNoMoves) {
   Board board;
+  board_states_.EmptyBoard(board);
   vector<Position> wanted_moves;
 
-  board.SetColorAtPosition(4, 4, Black);
-  board.SetColorAtPosition(5, 5, Black);
-
   EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
   EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
 }
 
-Board MidGameBoard() {
+// tests the possible moves of the Black player and the White player in a certain situation of the game
+TEST_F(ClassicLogicTest, PossibleMovesMidGame) {
+  Board board;
+  board_states_.MidGameBoard(board);
+  vector<Position> wanted_moves = board_states_.BlackMidGamePossibleMoves();
+
+  EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
+
+  wanted_moves = board_states_.WhiteMidGamePossibleMoves();
+
+  EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
+}
+
+// tests the GetWInner function
+TEST_F(ClassicLogicTest, GetWinnerNoTie) {
   Board board;
 
-  board.SetColorAtPosition(1, 4, Black);
-  board.SetColorAtPosition(2, 4, Black);
-  board.SetColorAtPosition(3, 4, Black);
-  board.SetColorAtPosition(4, 4, Black);
-  board.SetColorAtPosition(5, 4, Black);
-  board.SetColorAtPosition(3, 6, Black);
-  board.SetColorAtPosition(1, 5, White);
-  board.SetColorAtPosition(2, 5, White);
-  board.SetColorAtPosition(3, 5, White);
-  board.SetColorAtPosition(4, 5, White);
-  board.SetColorAtPosition(5, 5, White);
-  board.SetColorAtPosition(3, 3, White);
-  board.SetColorAtPosition(5, 3, White);
-  board.SetColorAtPosition(5, 6, White);
-  board.SetColorAtPosition(5, 7, White);
-  board.SetColorAtPosition(6, 3, White);
-  board.SetColorAtPosition(6, 4, White);
-  board.SetColorAtPosition(7, 3, White);
+  board_states_.EmptyBoard(board);
+  EXPECT_EQ(NoColor, logic_.GetWinner(board));
 
-  return board;
+  board_states_.WhiteLeadsBoard(board);
+  EXPECT_EQ(White, logic_.GetWinner(board));
+
+  board_states_.BlackLeadsBoard(board);
+  EXPECT_EQ((int) Black, logic_.GetWinner(board));
 }
 
-vector<Position> WhiteMidGamePossibleMoves() {
-  vector<Position> possible_moves;
 
-  possible_moves.push_back(Position(1, 3));
-  possible_moves.push_back(Position(2, 3));
-  possible_moves.push_back(Position(2, 7));
-  possible_moves.push_back(Position(3, 7));
-  possible_moves.push_back(Position(4, 3));
-  possible_moves.push_back(Position(4, 7));
-
-  return possible_moves;
+// tests the StartingPlayer function at the start of the game
+TEST_F(ClassicLogicTest, StartingPlayer) {
+  EXPECT_EQ((int) Black, logic_.StartingPlayer());
 }
 
-vector<Position> BlackMidGamePossibleMoves() {
-  vector<Position> possible_moves;
 
-  possible_moves.push_back(Position(1, 6));
-  possible_moves.push_back(Position(2, 2));
-  possible_moves.push_back(Position(2, 6));
-  possible_moves.push_back(Position(3, 2));
-  possible_moves.push_back(Position(4, 2));
-  possible_moves.push_back(Position(4, 6));
-  possible_moves.push_back(Position(5, 2));
-  possible_moves.push_back(Position(5, 8));
-  possible_moves.push_back(Position(6, 2));
-  possible_moves.push_back(Position(6, 6));
-  possible_moves.push_back(Position(6, 7));
-  possible_moves.push_back(Position(7, 2));
-  possible_moves.push_back(Position(7, 4));
 
-  return possible_moves;
+// tests the GameOver function at the middle of the game
+TEST_F(ClassicLogicTest, GameOverMidGame) {
+  Board board;
+
+  // game should not end
+  board.Reset();
+  EXPECT_FALSE(logic_.GameOver(board));
+
+  board_states_.MidGameBoard(board);
+  EXPECT_FALSE(logic_.GameOver(board));
+
+  board_states_.BlackNoMovesBoard(board);
+  EXPECT_FALSE(logic_.GameOver(board));
+
+  board_states_.WhiteNoMovesBoard(board);
+  EXPECT_FALSE(logic_.GameOver(board));
+
+  // game should end
+  board_states_.EmptyBoard(board);
+  EXPECT_TRUE(logic_.GameOver(board));
+
+  board_states_.NoMoreMoves(board);
+  EXPECT_TRUE(logic_.GameOver(board));
+
 }
 
-TEST_F(ClassicLogicTest, PossibleMovesMidGame) {
-  Board board = MidGameBoard();
-  vector<Position> wanted_moves = BlackMidGamePossibleMoves();
+// tests the GameOver function at the end of the game
+TEST_F(ClassicLogicTest, GameOverEndGAme) {
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
+}
 
-  wanted_moves = WhiteMidGamePossibleMoves();
+// tests the PlaceAToken function
+TEST_F(ClassicLogicTest, PlaceAToken) {
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
 }
