@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Task_03_Test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\gtest_src\;CMake Files\gtest_src\googletest-release-1.8.0\;CMake Files\gtest_src\googletest-release-1.8.0\googlemock\;CMake Files\gtest_src\googletest-release-1.8.0\googletest\;CMake Files\gtest_src\googletest-release-1.8.0\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03_Test2">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Task_03_Test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03_Test2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03_Test2/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Task_03_Test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03_Test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03_Test">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Task_03_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03_Test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03_Test/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Task_03_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/include"/>
+					<Add directory="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/gtest_src/googletest-release-1.8.0/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/AIPlayer.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Board.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ClassicLogic.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ConsolePrinter.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/HumanPlayer.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Logic.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Player.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/PlayerColor.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Position.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Printer.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ReversiGame.h">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/main.cpp">
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Board.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ConsolePrinter.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/HumanPlayer.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Logic.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Player.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Position.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp">
+			<Option target="Task_03_Test2"/>
+			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/AIPlayerTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/BasicTests.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/BoardTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/ClassicLogicTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/HumanPlayerTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/PresetConfigs.h">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/main.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/gtest_src/googletest-release-1.8.0/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest_src\googletest-release-1.8.0\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

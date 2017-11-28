@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Task_02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03">
+				<Option output="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Task_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_03/fast">
+				<Option output="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Task_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/gilad/CLionProjects/Mivne/Task_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Board/Board.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Board/Board.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Board/Position.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Board/Position.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Game/ReversiGame.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Game/ReversiGame.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Logic/ClassicLogic.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Logic/ClassicLogic.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Logic/Logic.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Logic/Logic.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/HumanPlayer.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/HumanPlayer.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/Player.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/Player.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Player/PlayerColor.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Printer/ConsolePrinter.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Printer/ConsolePrinter.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/Printer/Printer.h">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/main.cpp">
+			<Option target="Task_03"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Mivne/Task_03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
