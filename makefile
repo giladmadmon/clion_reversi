@@ -1,5 +1,4 @@
 # Gilad Madmon
-# 305132599
 
 a.out: compileAll
 	g++ *.o 

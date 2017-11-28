@@ -1,9 +1,7 @@
 /**************
 * Student name: Gilad Madmon
-* Student ID: 305132599
 *
 * Student name: Dafna Magid
-* Student ID: 315635870
 **************/
 
 #include "../include/Board.h"

@@ -1,6 +1,5 @@
 /**************
 * Student name: Gilad Madmon
-* Student ID: 305132599
 * Exercise name: Exercise 2
 **************/
 
