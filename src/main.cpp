@@ -1,9 +1,15 @@
+/**************
+* Student name: Gilad Madmon
+* Student name: Dafna Magid
+* Exercise name: Exercise 3
+**************/
+
 #include  <iostream>
-#include "include/HumanPlayer.h"
-#include "include/AIPlayer.h"
-#include "include/ReversiGame.h"
-#include "include/ClassicLogic.h"
-#include "include/ConsolePrinter.h"
+#include "../include/HumanPlayer.h"
+#include "../include/AIPlayer.h"
+#include "../include/ReversiGame.h"
+#include "../include/ClassicLogic.h"
+#include "../include/ConsolePrinter.h"
 
 #include <limits>
 
@@ -30,8 +36,8 @@ int main() {
       valid = true;
     } else {
       cin.clear();
-      cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
   } while (!valid || (option != 1 && option != 2));
 
   switch (option) {

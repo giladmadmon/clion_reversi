@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gilad/CLionProjects/Task_03_Test/main.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/main.cpp.o"
   "/home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o"
   "/home/gilad/CLionProjects/Task_03_Test/src/Board.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/Board.cpp.o"
   "/home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/ClassicLogic.cpp.o"
@@ -14,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gilad/CLionProjects/Task_03_Test/src/Player.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/Player.cpp.o"
   "/home/gilad/CLionProjects/Task_03_Test/src/Position.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/Position.cpp.o"
   "/home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o"
+  "/home/gilad/CLionProjects/Task_03_Test/src/main.cpp" "/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles/Task_03_Test.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

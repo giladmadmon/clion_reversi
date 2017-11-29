@@ -273,28 +273,28 @@ CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o.provides: CMakeFiles/Task_03_Test
 CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o.provides.build: CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o
 
 
-CMakeFiles/Task_03_Test.dir/main.cpp.o: CMakeFiles/Task_03_Test.dir/flags.make
-CMakeFiles/Task_03_Test.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Task_03_Test.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test.dir/main.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/main.cpp
+CMakeFiles/Task_03_Test.dir/src/main.cpp.o: CMakeFiles/Task_03_Test.dir/flags.make
+CMakeFiles/Task_03_Test.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Task_03_Test.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test.dir/src/main.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/main.cpp
 
-CMakeFiles/Task_03_Test.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/main.cpp > CMakeFiles/Task_03_Test.dir/main.cpp.i
+CMakeFiles/Task_03_Test.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/main.cpp > CMakeFiles/Task_03_Test.dir/src/main.cpp.i
 
-CMakeFiles/Task_03_Test.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/main.cpp -o CMakeFiles/Task_03_Test.dir/main.cpp.s
+CMakeFiles/Task_03_Test.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/main.cpp -o CMakeFiles/Task_03_Test.dir/src/main.cpp.s
 
-CMakeFiles/Task_03_Test.dir/main.cpp.o.requires:
+CMakeFiles/Task_03_Test.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/Task_03_Test.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Task_03_Test.dir/src/main.cpp.o.requires
 
-CMakeFiles/Task_03_Test.dir/main.cpp.o.provides: CMakeFiles/Task_03_Test.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Task_03_Test.dir/main.cpp.o.provides
+CMakeFiles/Task_03_Test.dir/src/main.cpp.o.provides: CMakeFiles/Task_03_Test.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test.dir/src/main.cpp.o.provides
 
-CMakeFiles/Task_03_Test.dir/main.cpp.o.provides.build: CMakeFiles/Task_03_Test.dir/main.cpp.o
+CMakeFiles/Task_03_Test.dir/src/main.cpp.o.provides.build: CMakeFiles/Task_03_Test.dir/src/main.cpp.o
 
 
 # Object files for target Task_03_Test
@@ -308,7 +308,7 @@ Task_03_Test_OBJECTS = \
 "CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o" \
 "CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.o" \
 "CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o" \
-"CMakeFiles/Task_03_Test.dir/main.cpp.o"
+"CMakeFiles/Task_03_Test.dir/src/main.cpp.o"
 
 # External object files for target Task_03_Test
 Task_03_Test_EXTERNAL_OBJECTS =
@@ -322,7 +322,7 @@ Task_03_Test: CMakeFiles/Task_03_Test.dir/src/ClassicLogic.cpp.o
 Task_03_Test: CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o
 Task_03_Test: CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.o
 Task_03_Test: CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o
-Task_03_Test: CMakeFiles/Task_03_Test.dir/main.cpp.o
+Task_03_Test: CMakeFiles/Task_03_Test.dir/src/main.cpp.o
 Task_03_Test: CMakeFiles/Task_03_Test.dir/build.make
 Task_03_Test: CMakeFiles/Task_03_Test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Task_03_Test"
@@ -342,7 +342,7 @@ CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/src/ClassicLog
 CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o.requires
 CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.o.requires
 CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o.requires
-CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/main.cpp.o.requires
+CMakeFiles/Task_03_Test.dir/requires: CMakeFiles/Task_03_Test.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Task_03_Test.dir/requires
 

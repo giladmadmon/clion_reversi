@@ -1,6 +1,8 @@
-//
-// Created by gilad on 11/19/17.
-//
+/**************
+* Student name: Gilad Madmon
+* Student name: Dafna Magid
+* Exercise name: Exercise 3
+**************/
 
 #ifndef TASK_03_ALPLAYER_H
 #define TASK_03_ALPLAYER_H

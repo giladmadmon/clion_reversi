@@ -1,4 +1,13 @@
 /opt/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/gilad/CLionProjects/Task_03_Test
 -- Configuring done
+CMake Error at CMakeLists.txt:14 (add_executable):
+  Cannot find source file:
+
+    test/PresetConfigs.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
 -- Generating done
 -- Build files have been written to: /home/gilad/CLionProjects/Task_03_Test/cmake-build-debug

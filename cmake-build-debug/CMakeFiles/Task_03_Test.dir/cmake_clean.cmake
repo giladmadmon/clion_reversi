@@ -8,7 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o"
   "CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.o"
   "CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o"
-  "CMakeFiles/Task_03_Test.dir/main.cpp.o"
+  "CMakeFiles/Task_03_Test.dir/src/main.cpp.o"
   "Task_03_Test.pdb"
   "Task_03_Test"
 )

@@ -1,6 +1,7 @@
 /**************
 * Student name: Gilad Madmon
-* Exercise name: Exercise 2
+* Student name: Dafna Magid
+* Exercise name: Exercise 3
 **************/
 
 #ifndef TASK_02_REVERSIGAME_H

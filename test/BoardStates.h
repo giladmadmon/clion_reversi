@@ -1,7 +1,7 @@
 /**************
 * Student name: Gilad Madmon
-*
 * Student name: Dafna Magid
+* Exercise name: Exercise 3
 **************/
 
 #include <vector>

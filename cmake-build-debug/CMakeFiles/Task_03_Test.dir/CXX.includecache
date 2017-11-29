@@ -78,22 +78,6 @@ Logic.h
 Printer.h
 /home/gilad/CLionProjects/Task_03_Test/include/Printer.h
 
-/home/gilad/CLionProjects/Task_03_Test/main.cpp
-iostream
--
-include/HumanPlayer.h
-/home/gilad/CLionProjects/Task_03_Test/include/HumanPlayer.h
-include/AIPlayer.h
-/home/gilad/CLionProjects/Task_03_Test/include/AIPlayer.h
-include/ReversiGame.h
-/home/gilad/CLionProjects/Task_03_Test/include/ReversiGame.h
-include/ClassicLogic.h
-/home/gilad/CLionProjects/Task_03_Test/include/ClassicLogic.h
-include/ConsolePrinter.h
-/home/gilad/CLionProjects/Task_03_Test/include/ConsolePrinter.h
-limits
--
-
 /home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp
 ../include/AIPlayer.h
 /home/gilad/CLionProjects/Task_03_Test/include/AIPlayer.h
@@ -157,4 +141,20 @@ cstdio
 -
 ../include/ReversiGame.h
 /home/gilad/CLionProjects/Task_03_Test/include/ReversiGame.h
+
+/home/gilad/CLionProjects/Task_03_Test/src/main.cpp
+iostream
+-
+../include/HumanPlayer.h
+/home/gilad/CLionProjects/Task_03_Test/include/HumanPlayer.h
+../include/AIPlayer.h
+/home/gilad/CLionProjects/Task_03_Test/include/AIPlayer.h
+../include/ReversiGame.h
+/home/gilad/CLionProjects/Task_03_Test/include/ReversiGame.h
+../include/ClassicLogic.h
+/home/gilad/CLionProjects/Task_03_Test/include/ClassicLogic.h
+../include/ConsolePrinter.h
+/home/gilad/CLionProjects/Task_03_Test/include/ConsolePrinter.h
+limits
+-
 

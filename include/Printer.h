@@ -1,6 +1,7 @@
 /**************
 * Student name: Gilad Madmon
-* Exercise name: Exercise 2
+* Student name: Dafna Magid
+* Exercise name: Exercise 3
 **************/
 #ifndef ASS2_PRINTER_H
 #define ASS2_PRINTER_H

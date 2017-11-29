@@ -1,6 +1,8 @@
-//
-// Created by gilad on 11/19/17.
-//
+/**************
+* Student name: Gilad Madmon
+* Student name: Dafna Magid
+* Exercise name: Exercise 3
+**************/
 
 #include "../include/AIPlayer.h"
 #include <cstdlib>
