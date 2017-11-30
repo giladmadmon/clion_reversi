@@ -119,5 +119,3 @@ void ClassicLogic::PlaceAToken(PlayerColor color, int row, int col, Board &board
     }
   }
 }
-
-ClassicLogic::ClassicLogic() : Logic() {}

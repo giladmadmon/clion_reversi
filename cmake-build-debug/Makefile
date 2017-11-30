@@ -240,6 +240,7 @@ src/AIPlayer.o: src/AIPlayer.cpp.o
 
 # target to build an object file
 src/AIPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.o
 .PHONY : src/AIPlayer.cpp.o
 
@@ -249,6 +250,7 @@ src/AIPlayer.i: src/AIPlayer.cpp.i
 
 # target to preprocess a source file
 src/AIPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.i
 .PHONY : src/AIPlayer.cpp.i
 
@@ -258,6 +260,7 @@ src/AIPlayer.s: src/AIPlayer.cpp.s
 
 # target to generate assembly for a file
 src/AIPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/AIPlayer.cpp.s
 .PHONY : src/AIPlayer.cpp.s
 
@@ -267,6 +270,7 @@ src/Board.o: src/Board.cpp.o
 
 # target to build an object file
 src/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Board.cpp.o
 .PHONY : src/Board.cpp.o
 
@@ -276,6 +280,7 @@ src/Board.i: src/Board.cpp.i
 
 # target to preprocess a source file
 src/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Board.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Board.cpp.i
 .PHONY : src/Board.cpp.i
 
@@ -285,6 +290,7 @@ src/Board.s: src/Board.cpp.s
 
 # target to generate assembly for a file
 src/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Board.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
 
@@ -294,6 +300,7 @@ src/ClassicLogic.o: src/ClassicLogic.cpp.o
 
 # target to build an object file
 src/ClassicLogic.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ClassicLogic.cpp.o
 .PHONY : src/ClassicLogic.cpp.o
 
@@ -303,6 +310,7 @@ src/ClassicLogic.i: src/ClassicLogic.cpp.i
 
 # target to preprocess a source file
 src/ClassicLogic.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ClassicLogic.cpp.i
 .PHONY : src/ClassicLogic.cpp.i
 
@@ -312,6 +320,7 @@ src/ClassicLogic.s: src/ClassicLogic.cpp.s
 
 # target to generate assembly for a file
 src/ClassicLogic.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ClassicLogic.cpp.s
 .PHONY : src/ClassicLogic.cpp.s
 
@@ -321,6 +330,7 @@ src/ConsolePrinter.o: src/ConsolePrinter.cpp.o
 
 # target to build an object file
 src/ConsolePrinter.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.o
 .PHONY : src/ConsolePrinter.cpp.o
 
@@ -330,6 +340,7 @@ src/ConsolePrinter.i: src/ConsolePrinter.cpp.i
 
 # target to preprocess a source file
 src/ConsolePrinter.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.i
 .PHONY : src/ConsolePrinter.cpp.i
 
@@ -339,6 +350,7 @@ src/ConsolePrinter.s: src/ConsolePrinter.cpp.s
 
 # target to generate assembly for a file
 src/ConsolePrinter.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ConsolePrinter.cpp.s
 .PHONY : src/ConsolePrinter.cpp.s
 
@@ -348,6 +360,7 @@ src/HumanPlayer.o: src/HumanPlayer.cpp.o
 
 # target to build an object file
 src/HumanPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/HumanPlayer.cpp.o
 .PHONY : src/HumanPlayer.cpp.o
 
@@ -357,6 +370,7 @@ src/HumanPlayer.i: src/HumanPlayer.cpp.i
 
 # target to preprocess a source file
 src/HumanPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/HumanPlayer.cpp.i
 .PHONY : src/HumanPlayer.cpp.i
 
@@ -366,6 +380,7 @@ src/HumanPlayer.s: src/HumanPlayer.cpp.s
 
 # target to generate assembly for a file
 src/HumanPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/HumanPlayer.cpp.s
 .PHONY : src/HumanPlayer.cpp.s
 
@@ -375,6 +390,7 @@ src/Logic.o: src/Logic.cpp.o
 
 # target to build an object file
 src/Logic.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Logic.cpp.o
 .PHONY : src/Logic.cpp.o
 
@@ -384,6 +400,7 @@ src/Logic.i: src/Logic.cpp.i
 
 # target to preprocess a source file
 src/Logic.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Logic.cpp.i
 .PHONY : src/Logic.cpp.i
 
@@ -393,6 +410,7 @@ src/Logic.s: src/Logic.cpp.s
 
 # target to generate assembly for a file
 src/Logic.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Logic.cpp.s
 .PHONY : src/Logic.cpp.s
 
@@ -402,6 +420,7 @@ src/Player.o: src/Player.cpp.o
 
 # target to build an object file
 src/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Player.cpp.o
 .PHONY : src/Player.cpp.o
 
@@ -411,6 +430,7 @@ src/Player.i: src/Player.cpp.i
 
 # target to preprocess a source file
 src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Player.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Player.cpp.i
 .PHONY : src/Player.cpp.i
 
@@ -420,6 +440,7 @@ src/Player.s: src/Player.cpp.s
 
 # target to generate assembly for a file
 src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Player.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
@@ -429,6 +450,7 @@ src/Position.o: src/Position.cpp.o
 
 # target to build an object file
 src/Position.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Position.cpp.o
 .PHONY : src/Position.cpp.o
 
@@ -438,6 +460,7 @@ src/Position.i: src/Position.cpp.i
 
 # target to preprocess a source file
 src/Position.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Position.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Position.cpp.i
 .PHONY : src/Position.cpp.i
 
@@ -447,6 +470,7 @@ src/Position.s: src/Position.cpp.s
 
 # target to generate assembly for a file
 src/Position.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Position.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/Position.cpp.s
 .PHONY : src/Position.cpp.s
 
@@ -456,6 +480,7 @@ src/ReversiGame.o: src/ReversiGame.cpp.o
 
 # target to build an object file
 src/ReversiGame.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.o
 .PHONY : src/ReversiGame.cpp.o
 
@@ -465,6 +490,7 @@ src/ReversiGame.i: src/ReversiGame.cpp.i
 
 # target to preprocess a source file
 src/ReversiGame.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.i
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.i
 .PHONY : src/ReversiGame.cpp.i
 
@@ -474,6 +500,7 @@ src/ReversiGame.s: src/ReversiGame.cpp.s
 
 # target to generate assembly for a file
 src/ReversiGame.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.s
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/ReversiGame.cpp.s
 .PHONY : src/ReversiGame.cpp.s
 
@@ -503,6 +530,114 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Task_03_Test.dir/build.make CMakeFiles/Task_03_Test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+test/AIPlayerTest.o: test/AIPlayerTest.cpp.o
+
+.PHONY : test/AIPlayerTest.o
+
+# target to build an object file
+test/AIPlayerTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o
+.PHONY : test/AIPlayerTest.cpp.o
+
+test/AIPlayerTest.i: test/AIPlayerTest.cpp.i
+
+.PHONY : test/AIPlayerTest.i
+
+# target to preprocess a source file
+test/AIPlayerTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.i
+.PHONY : test/AIPlayerTest.cpp.i
+
+test/AIPlayerTest.s: test/AIPlayerTest.cpp.s
+
+.PHONY : test/AIPlayerTest.s
+
+# target to generate assembly for a file
+test/AIPlayerTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.s
+.PHONY : test/AIPlayerTest.cpp.s
+
+test/BoardTest.o: test/BoardTest.cpp.o
+
+.PHONY : test/BoardTest.o
+
+# target to build an object file
+test/BoardTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o
+.PHONY : test/BoardTest.cpp.o
+
+test/BoardTest.i: test/BoardTest.cpp.i
+
+.PHONY : test/BoardTest.i
+
+# target to preprocess a source file
+test/BoardTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.i
+.PHONY : test/BoardTest.cpp.i
+
+test/BoardTest.s: test/BoardTest.cpp.s
+
+.PHONY : test/BoardTest.s
+
+# target to generate assembly for a file
+test/BoardTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.s
+.PHONY : test/BoardTest.cpp.s
+
+test/ClassicLogicTest.o: test/ClassicLogicTest.cpp.o
+
+.PHONY : test/ClassicLogicTest.o
+
+# target to build an object file
+test/ClassicLogicTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o
+.PHONY : test/ClassicLogicTest.cpp.o
+
+test/ClassicLogicTest.i: test/ClassicLogicTest.cpp.i
+
+.PHONY : test/ClassicLogicTest.i
+
+# target to preprocess a source file
+test/ClassicLogicTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.i
+.PHONY : test/ClassicLogicTest.cpp.i
+
+test/ClassicLogicTest.s: test/ClassicLogicTest.cpp.s
+
+.PHONY : test/ClassicLogicTest.s
+
+# target to generate assembly for a file
+test/ClassicLogicTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.s
+.PHONY : test/ClassicLogicTest.cpp.s
+
+test/main.o: test/main.cpp.o
+
+.PHONY : test/main.o
+
+# target to build an object file
+test/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/main.cpp.o
+.PHONY : test/main.cpp.o
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
 
 # Help Target
 help:
@@ -552,6 +687,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... test/AIPlayerTest.o"
+	@echo "... test/AIPlayerTest.i"
+	@echo "... test/AIPlayerTest.s"
+	@echo "... test/BoardTest.o"
+	@echo "... test/BoardTest.i"
+	@echo "... test/BoardTest.s"
+	@echo "... test/ClassicLogicTest.o"
+	@echo "... test/ClassicLogicTest.i"
+	@echo "... test/ClassicLogicTest.s"
+	@echo "... test/main.o"
+	@echo "... test/main.i"
+	@echo "... test/main.s"
 .PHONY : help
 
 

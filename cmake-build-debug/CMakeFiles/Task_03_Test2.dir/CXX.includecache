@@ -426,12 +426,6 @@ gtest/gtest.h
 BoardStates.h
 /home/gilad/CLionProjects/Task_03_Test/test/BoardStates.h
 
-/home/gilad/CLionProjects/Task_03_Test/test/BasicTests.cpp
-gtest/gtest.h
-/home/gilad/CLionProjects/Task_03_Test/test/gtest/gtest.h
-../include/Position.h
-/home/gilad/CLionProjects/Task_03_Test/include/Position.h
-
 /home/gilad/CLionProjects/Task_03_Test/test/BoardStates.h
 vector
 -
@@ -457,14 +451,10 @@ gtest/gtest.h
 /home/gilad/CLionProjects/Task_03_Test/test/gtest/gtest.h
 ../include/ClassicLogic.h
 /home/gilad/CLionProjects/Task_03_Test/include/ClassicLogic.h
-PresetConfigs.h
-/home/gilad/CLionProjects/Task_03_Test/test/PresetConfigs.h
-
-/home/gilad/CLionProjects/Task_03_Test/test/HumanPlayerTest.cpp
-gtest/gtest.h
-/home/gilad/CLionProjects/Task_03_Test/test/gtest/gtest.h
-../include/HumanPlayer.h
-/home/gilad/CLionProjects/Task_03_Test/include/HumanPlayer.h
+BoardStates.h
+/home/gilad/CLionProjects/Task_03_Test/test/BoardStates.h
+../include/ConsolePrinter.h
+/home/gilad/CLionProjects/Task_03_Test/include/ConsolePrinter.h
 
 /home/gilad/CLionProjects/Task_03_Test/test/main.cpp
 gtest/gtest.h

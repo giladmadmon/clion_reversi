@@ -57,19 +57,357 @@ include CMakeFiles/Task_03_Test2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Task_03_Test2.dir/flags.make
 
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o: ../src/Position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/Position.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/Position.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/Position.cpp > CMakeFiles/Task_03_Test2.dir/src/Position.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/Position.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/Position.cpp -o CMakeFiles/Task_03_Test2.dir/src/Position.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o: ../src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/Player.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/Player.cpp > CMakeFiles/Task_03_Test2.dir/src/Player.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/Player.cpp -o CMakeFiles/Task_03_Test2.dir/src/Player.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o: ../src/HumanPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/HumanPlayer.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/HumanPlayer.cpp > CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/HumanPlayer.cpp -o CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o: ../src/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/Board.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/Board.cpp > CMakeFiles/Task_03_Test2.dir/src/Board.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/Board.cpp -o CMakeFiles/Task_03_Test2.dir/src/Board.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o: ../src/Logic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/Logic.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/Logic.cpp > CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/Logic.cpp -o CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o: ../src/ClassicLogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp > CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp -o CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o: ../src/ReversiGame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp > CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp -o CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o: ../src/ConsolePrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/ConsolePrinter.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/ConsolePrinter.cpp > CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/ConsolePrinter.cpp -o CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o: ../src/AIPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp > CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp -o CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o: ../test/BoardTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/test/BoardTest.cpp
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/test/BoardTest.cpp > CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/test/BoardTest.cpp -o CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o: ../test/ClassicLogicTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/test/ClassicLogicTest.cpp
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/test/ClassicLogicTest.cpp > CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/test/ClassicLogicTest.cpp -o CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o: ../test/AIPlayerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/test/AIPlayerTest.cpp
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/test/AIPlayerTest.cpp > CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/test/AIPlayerTest.cpp -o CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o
+
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.o: CMakeFiles/Task_03_Test2.dir/flags.make
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.o: ../test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Task_03_Test2.dir/test/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_03_Test2.dir/test/main.cpp.o -c /home/gilad/CLionProjects/Task_03_Test/test/main.cpp
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_03_Test2.dir/test/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gilad/CLionProjects/Task_03_Test/test/main.cpp > CMakeFiles/Task_03_Test2.dir/test/main.cpp.i
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_03_Test2.dir/test/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gilad/CLionProjects/Task_03_Test/test/main.cpp -o CMakeFiles/Task_03_Test2.dir/test/main.cpp.s
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.requires
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.provides: CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Task_03_Test2.dir/build.make CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.provides
+
+CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.provides.build: CMakeFiles/Task_03_Test2.dir/test/main.cpp.o
+
+
 # Object files for target Task_03_Test2
-Task_03_Test2_OBJECTS =
+Task_03_Test2_OBJECTS = \
+"CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o" \
+"CMakeFiles/Task_03_Test2.dir/test/main.cpp.o"
 
 # External object files for target Task_03_Test2
 Task_03_Test2_EXTERNAL_OBJECTS =
 
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o
+Task_03_Test2: CMakeFiles/Task_03_Test2.dir/test/main.cpp.o
 Task_03_Test2: CMakeFiles/Task_03_Test2.dir/build.make
 Task_03_Test2: gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 Task_03_Test2: gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
 Task_03_Test2: gtest_src/googletest-release-1.8.0/googlemock/libgmock.a
 Task_03_Test2: gtest_src/googletest-release-1.8.0/googlemock/gtest/libgtest.a
 Task_03_Test2: CMakeFiles/Task_03_Test2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX executable Task_03_Test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gilad/CLionProjects/Task_03_Test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Task_03_Test2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task_03_Test2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -77,7 +415,19 @@ CMakeFiles/Task_03_Test2.dir/build: Task_03_Test2
 
 .PHONY : CMakeFiles/Task_03_Test2.dir/build
 
-CMakeFiles/Task_03_Test2.dir/requires:
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/Position.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/Player.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/HumanPlayer.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/Board.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/Logic.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/ClassicLogic.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/ReversiGame.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/ConsolePrinter.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/src/AIPlayer.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/test/BoardTest.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/test/ClassicLogicTest.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/test/AIPlayerTest.cpp.o.requires
+CMakeFiles/Task_03_Test2.dir/requires: CMakeFiles/Task_03_Test2.dir/test/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Task_03_Test2.dir/requires
 

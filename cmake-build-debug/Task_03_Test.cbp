@@ -402,67 +402,99 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/AIPlayer.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Board.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ClassicLogic.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ConsolePrinter.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/HumanPlayer.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Logic.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Player.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/PlayerColor.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Position.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/Printer.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/include/ReversiGame.h">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/AIPlayer.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Board.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ClassicLogic.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ConsolePrinter.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/HumanPlayer.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Logic.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Player.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/Position.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/ReversiGame.cpp">
+			<Option target="Task_03_Test2"/>
 			<Option target="Task_03_Test"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/src/main.cpp">
 			<Option target="Task_03_Test"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/AIPlayerTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/BoardTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/ClassicLogicTest.cpp">
+			<Option target="Task_03_Test2"/>
+		</Unit>
+		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/test/main.cpp">
+			<Option target="Task_03_Test2"/>
 		</Unit>
 		<Unit filename="/home/gilad/CLionProjects/Task_03_Test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

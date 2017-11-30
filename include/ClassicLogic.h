@@ -15,7 +15,7 @@ class ClassicLogic : public Logic {
    *
    * @param board
    */
-  ClassicLogic();
+  ClassicLogic() {}
   /**
    * @return the color of the starting player.
    */
@@ -80,11 +80,11 @@ class ClassicLogic : public Logic {
    * @return true if there will be a flip, false otherwise.
    */
   bool CheckOneDirection(PlayerColor rival_color,
-                           int row,
-                           int col,
-                           int row_change,
-                           int col_change,
-                           Board &board);
+                         int row,
+                         int col,
+                         int row_change,
+                         int col_change,
+                         Board &board);
 };
 
 #endif //TASK_02_CLASSICLOGIC_H

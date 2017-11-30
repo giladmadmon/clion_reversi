@@ -61,6 +61,20 @@ class Board {
    * Destructor.
    */
   virtual ~Board();
+
+  /**
+   * check if two boards are equal.
+   * @param board the board to compare with.
+   * @return true if the boards are equal, false otherwise.
+   */
+  bool operator==(const Board &board) const;
+
+  /**
+   * check if two boards are not equal.
+   * @param board the board to compare with.
+   * @return true if the boards are not equal, false otherwise.
+   */
+  bool operator!=(const Board &board) const;
 };
 
 #endif //TASK_02_BOARD_H

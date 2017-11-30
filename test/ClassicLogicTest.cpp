@@ -9,6 +9,7 @@
 #include "gtest/gtest.h"
 #include "../include/ClassicLogic.h"
 #include "BoardStates.h"
+#include "../include/ConsolePrinter.h"
 
 using namespace std;
 
@@ -17,12 +18,14 @@ class ClassicLogicTest : public testing::Test {
   virtual void SetUp() {
     ClassicLogicTest::logic_ = ClassicLogic();
     board_states_ = BoardStates();
+    board_ = new Board();
   }
 
   virtual void TearDown() {
   }
 
  protected:
+  Board *board_;
   BoardStates board_states_;
   ClassicLogic logic_;
   virtual bool CheckMoves(vector<Position> &wanted_moves, PlayerColor player_color, Board &board);
@@ -37,11 +40,10 @@ bool ClassicLogicTest::CheckMoves(vector<Position> &wanted_moves, PlayerColor pl
   }
 
   return is_good;
-} 
+}
 
 // tests the possible moves of the Black player and the White player in the start of the game
 TEST_F(ClassicLogicTest, PossibleMovesStart) {
-  Board board;
   vector<Position> wanted_moves;
 
   wanted_moves.push_back(Position(4, 3));
@@ -49,7 +51,7 @@ TEST_F(ClassicLogicTest, PossibleMovesStart) {
   wanted_moves.push_back(Position(5, 6));
   wanted_moves.push_back(Position(6, 5));
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
+  EXPECT_TRUE(CheckMoves(wanted_moves, Black, *board_));
 
   wanted_moves.clear();
   wanted_moves.push_back(Position(3, 5));
@@ -57,44 +59,40 @@ TEST_F(ClassicLogicTest, PossibleMovesStart) {
   wanted_moves.push_back(Position(5, 3));
   wanted_moves.push_back(Position(6, 4));
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
+  EXPECT_TRUE(CheckMoves(wanted_moves, White, *board_));
 }
 
 // tests the possible moves of the Black player and the White player when both have no moves
 TEST_F(ClassicLogicTest, PossibleMovesNoMoves) {
-  Board board;
-  board_states_.EmptyBoard(board);
+  board_states_.EmptyBoard(*board_);
   vector<Position> wanted_moves;
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
-  EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
+  EXPECT_TRUE(CheckMoves(wanted_moves, Black, *board_));
+  EXPECT_TRUE(CheckMoves(wanted_moves, White, *board_));
 }
 
 // tests the possible moves of the Black player and the White player in a certain situation of the game
 TEST_F(ClassicLogicTest, PossibleMovesMidGame) {
-  Board board;
-  board_states_.MidGameBoard(board);
+  board_states_.MidGameBoard(*board_);
   vector<Position> wanted_moves = board_states_.BlackMidGamePossibleMoves();
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, Black, board));
+  EXPECT_TRUE(CheckMoves(wanted_moves, Black, *board_));
 
   wanted_moves = board_states_.WhiteMidGamePossibleMoves();
 
-  EXPECT_TRUE(CheckMoves(wanted_moves, White, board));
+  EXPECT_TRUE(CheckMoves(wanted_moves, White, *board_));
 }
 
 // tests the GetWInner function
 TEST_F(ClassicLogicTest, GetWinnerNoTie) {
-  Board board;
+  board_states_.EmptyBoard(*board_);
+  EXPECT_EQ(NoColor, logic_.GetWinner(*board_));
 
-  board_states_.EmptyBoard(board);
-  EXPECT_EQ(NoColor, logic_.GetWinner(board));
+  board_states_.WhiteLeadsBoard(*board_);
+  EXPECT_EQ(White, logic_.GetWinner(*board_));
 
-  board_states_.WhiteLeadsBoard(board);
-  EXPECT_EQ(White, logic_.GetWinner(board));
-
-  board_states_.BlackLeadsBoard(board);
-  EXPECT_EQ((int) Black, logic_.GetWinner(board));
+  board_states_.BlackLeadsBoard(*board_);
+  EXPECT_EQ((int) Black, logic_.GetWinner(*board_));
 }
 
 
@@ -131,12 +129,24 @@ TEST_F(ClassicLogicTest, GameOverMidGame) {
 
 }
 
-// tests the GameOver function at the end of the game
-TEST_F(ClassicLogicTest, GameOverEndGAme) {
-
-}
-
 // tests the PlaceAToken function
 TEST_F(ClassicLogicTest, PlaceAToken) {
+  Board board;
 
+  board_states_.MidGameBoard(*board_);
+  logic_.PlaceAToken(Black, 5, 8,*board_); // will flip 5,5 5,6 5,7
+  board_states_.MidGameBoardBlack(board);
+
+  EXPECT_EQ(*board_,board);
+
+  board_states_.MidGameBoard(*board_);
+  EXPECT_NE(*board_,board);
+
+  logic_.PlaceAToken(White, 2, 3,*board_); // will flip 2,4 3,4
+  board_states_.MidGameBoardWhite(board);
+
+  EXPECT_EQ(*board_,board);
+
+  board_states_.MidGameBoard(*board_);
+  EXPECT_NE(*board_,board);
 }

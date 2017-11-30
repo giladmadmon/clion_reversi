@@ -14,7 +14,7 @@ Board::Board(int size) {
 
   Reset();
 }
-// change name
+
 void Board::Reset() {
   int mid_size = size_ / 2;
 
@@ -29,15 +29,15 @@ void Board::Reset() {
   SetColorAtPosition(mid_size + 1, mid_size + 1, White);
   SetColorAtPosition(mid_size, mid_size, White);
 }
-// change
+
 void Board::SetColorAtPosition(int row, int col, PlayerColor color) {
   this->board_[row - 1][col - 1] = color;
 }
-// change name
+
 PlayerColor Board::GetColorAtPosition(int row, int col) {
   return board_[row - 1][col - 1];
 }
-// change
+
 int Board::CountColor(PlayerColor color) {
   int count = 0;
 
@@ -51,6 +51,7 @@ int Board::CountColor(PlayerColor color) {
 
   return count;
 }
+
 Board::~Board() {
   for (int i = 0; i < size_; ++i) {
     delete[] this->board_[i];
@@ -61,6 +62,7 @@ Board::~Board() {
 int Board::GetSize() {
   return size_;
 }
+
 Board::Board(const Board &old_board) {
   this->size_ = old_board.size_;
   this->board_ = new PlayerColor *[size_];
@@ -73,4 +75,24 @@ Board::Board(const Board &old_board) {
       board_[i][j] = old_board.board_[i][j];
     }
   }
+}
+
+bool Board::operator==(const Board &board) const {
+  if (this->size_ != board.size_){
+    return false;
+  }
+
+  for (int i = 0; i < this->size_; ++i) {
+    for (int j = 0; j < this->size_; ++j) {
+      if (this->board_[i][j] != board.board_[i][j]){
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+bool Board::operator!=(const Board &board) const {
+  return !(*this==board);
 }

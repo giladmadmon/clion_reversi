@@ -21,7 +21,8 @@ class BoardTest : public testing::Test {
  protected:
   Board *board_;
 };
-//what to write?
+
+// check if it is possible to reach the whole board.
 TEST_F(BoardTest, Bounds) {
   int size = board_->GetSize();
 
@@ -31,37 +32,6 @@ TEST_F(BoardTest, Bounds) {
       EXPECT_NO_THROW(board_->GetColorAtPosition(row, col));
     }
   }
-
-  /*
-  // lower bound
-  EXPECT_THROW(board_.SetColorAtPosition(0, 0, NoColor), std::range_error);
-  EXPECT_THROW(board_.SetColorAtPosition(0, 1, NoColor), std::range_error);
-  EXPECT_THROW(board_.SetColorAtPosition(1, 0, NoColor), std::range_error);
-
-  // upper bound
-  EXPECT_THROW(board_.SetColorAtPosition(9, 9, NoColor), std::range_error);
-  EXPECT_THROW(board_.SetColorAtPosition(8, 9, NoColor), std::range_error);
-  EXPECT_THROW(board_.SetColorAtPosition(9, 8, NoColor), std::range_error);
-
-  // 10 random out bound positive indexes.
-  srand(static_cast<unsigned int>(time(NULL)));
-  for (int i = 0; i < 10; i++) {
-    int rand_row = rand() % (1000 - board_.GetSize()) + board_.GetSize();
-    int rand_col = rand() % (1000 - board_.GetSize()) + board_.GetSize();
-
-    EXPECT_THROW(board_.SetColorAtPosition(rand_row, rand_col, NoColor), std::out_of_range);
-
-  }
-
-  // 10 random out bound negative indexes.
-  srand(static_cast<unsigned int>(time(NULL)));
-  for (int i = 0; i < 10; i++) {
-    int rand_row = -1 * rand();
-    int rand_col = -1 * rand();
-
-    EXPECT_THROW(board_.SetColorAtPosition(rand_row, rand_col, NoColor), std::out_of_range);
-
-  }*/
 }
 
 

@@ -15,7 +15,7 @@
 
 using namespace std;
 
-int KeyboardHit(void) {
+int HumanPlayer::KeyboardHit() {
   struct termios oldt, newt;
   int ch;
   int oldf;

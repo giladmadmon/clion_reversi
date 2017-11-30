@@ -36,6 +36,25 @@ class BoardStates {
     board.SetColorAtPosition(7, 3, White);
   }
 
+  void MidGameBoardBlack(Board &board) {
+    board.Reset();
+    MidGameBoard(board);
+
+    board.SetColorAtPosition(5, 5, Black);
+    board.SetColorAtPosition(5, 6, Black);
+    board.SetColorAtPosition(5, 7, Black);
+    board.SetColorAtPosition(5, 8, Black);
+  }
+
+  void MidGameBoardWhite(Board &board) {
+    board.Reset();
+    MidGameBoard(board);
+
+    board.SetColorAtPosition(2, 3, White);
+    board.SetColorAtPosition(2, 4, White);
+    board.SetColorAtPosition(3, 4, White);
+  }
+
   vector<Position> WhiteMidGamePossibleMoves() {
     vector<Position> possible_moves;
 

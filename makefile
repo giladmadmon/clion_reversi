@@ -9,4 +9,4 @@ compile:
 	g++ -Iinclude/ -c src/*.cpp
 
 run:
-    ./a.out
+	./a.out

@@ -13,7 +13,7 @@
 #include "Printer.h"
 using namespace std;
 
-class HumanPlayer : public Player{
+class HumanPlayer : public Player {
  public:
   /**
    * Constructor.
@@ -30,6 +30,9 @@ class HumanPlayer : public Player{
    * @return the chosen position of the player.
    */
   virtual Position MakeAMove(vector<Position> &possible_moves, Printer &printer, PlayerColor color);
+
+ private:
+  int KeyboardHit();
 };
 
 #endif //TASK_02_HUMANPLAYER_H
